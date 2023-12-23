@@ -482,7 +482,10 @@ body {
 }
 .subscribe-form-btn {
   display: flex;
+  justify-content: center;
   align-items: center;
+  min-width: 165px;
+  height: 40px;
   gap: 16px;
   padding: 8px 24px;
   color: #fff;
@@ -492,9 +495,12 @@ body {
   letter-spacing: 0.04em;
   border-radius: 4px;
   background: #4d5ae5;
+  cursor: pointer;
+  border: none;
 }
 .subscribe-form-icon {
   fill: #ffffff;
+  margin-left: 16px;
 }
 
 /* Modal Form */
